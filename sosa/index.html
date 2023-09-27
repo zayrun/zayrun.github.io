@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta content="🦇" property="og:title">
+    <meta content="#000001" data-react-helmet="true" name="theme-color">
+    <link rel="icon" type="image/x-icon" href="https://media.discordapp.net/attachments/1151894203794739210/1155418502811893871/trasparent.png?width=1080&height=608">
+    <link href="https://www.dafontfree.net/embed/dm9sa3N3YWdlbi1ib2xkLXJlZ3VsYXImZGF0YS8yOC92LzE0NzkwMC9Wb2xrc3dhZ2VuLUJvbGQudHRm" rel="stylesheet" type="text/css"/>
+    <title>@sosa</title>
+    <style>
+        body {
+            background-color: black;
+            display: flex;
+        }
+
+        .click-button {
+            color: white;
+        }
+
+        body {
+            flex-direction: column;
+            align-items: center;
+            overflow: hidden;
+        }
+
+        h1 {
+            font-family: 'volkswagen-bold-regular', sans-serif;
+            font-size: 80px;
+            color: white;
+            text-shadow: 0 0 12px rgba(255, 255, 255, 0.7);
+            outline: none;
+            font-weight: 750;
+            margin-bottom: 190px;
+            position: absolute
+        }
+
+        #video {
+            position: fixed;
+            top: 0;
+            left: 0;
+            min-width: 100%;
+            min-height: 100%;
+            z-index: -1;
+        }
+
+        .clickimage {
+            background-color: black;
+            display: flex;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100vh;
+            align-items: center;
+            justify-content: center;
+            z-index: 9999
+        }
+
+        .click-button:hover {
+            text-decoration: underline;
+            font-size: 20;
+            color: white;
+            cursor: pointer
+        }
+
+        .center {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 85vh;
+        }
+
+        .fade-out {
+            opacity: 0;
+            transition: opacity .3s ease-in-out;
+        }
+
+        .discord-icon {
+            width: 27px;
+            height: 20px;
+            margin-top: 128px;
+            margin-left: 16px;
+            filter: drop-shadow(0 0 10px #fff);
+            transition: transform 0.3s ease-in-out;
+            outline: none;
+            position: absolute;
+            cursor: pointer;
+        }
+
+        .discord-icon:hover {
+            transform: scale(1.1);
+            transition: transform .3s ease-in-out;
+            cursor: pointer;
+        }
+
+        .tiktok-icon {
+            width: 26px;
+            height: 25px;
+            margin-top: 124px;
+            margin-left: -35px;
+            filter: invert(100%) drop-shadow(0 0 10px #fff);
+            transition: transform 0.3s ease-in-out;
+            outline: none;
+            position: absolute;
+            cursor: pointer;
+        }
+
+        .tiktok-icon:hover {
+            transform: scale(1.1);
+            transition: transform .3s ease-in-out;
+            filter: invert(100%) drop-shadow(0 0 10px #fff);
+            cursor: pointer;
+        }
+
+        .snowflake {
+            color: #fff;
+            font-size: 1em;
+            text-shadow: 0 0 6px white;
+            opacity: 1;
+        }
+
+        @-webkit-keyframes snowflakes-fall{0%{top:-10%}100%{top:100%}}@-webkit-keyframes snowflakes-shake{0%,100%{-webkit-transform:translateX(0);transform:translateX(0)}50%{-webkit-transform:translateX(80px);transform:translateX(80px)}}@keyframes snowflakes-fall{0%{top:-10%}100%{top:100%}}@keyframes snowflakes-shake{0%,100%{transform:translateX(0)}50%{transform:translateX(80px)}}.snowflake{position:fixed;top:-10%;z-index:9999;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;cursor:default;-webkit-animation-name:snowflakes-fall,snowflakes-shake;-webkit-animation-duration:10s,3s;-webkit-animation-timing-function:linear,ease-in-out;-webkit-animation-iteration-count:infinite,infinite;-webkit-animation-play-state:running,running;animation-name:snowflakes-fall,snowflakes-shake;animation-duration:10s,3s;animation-timing-function:linear,ease-in-out;animation-iteration-count:infinite,infinite;animation-play-state:running,running}.snowflake:nth-of-type(0){left:1%;-webkit-animation-delay:0s,0s;animation-delay:0s,0s}.snowflake:nth-of-type(1){left:10%;-webkit-animation-delay:1s,1s;animation-delay:1s,1s}.snowflake:nth-of-type(2){left:20%;-webkit-animation-delay:6s,.5s;animation-delay:6s,.5s}.snowflake:nth-of-type(3){left:30%;-webkit-animation-delay:4s,2s;animation-delay:4s,2s}.snowflake:nth-of-type(4){left:40%;-webkit-animation-delay:2s,2s;animation-delay:2s,2s}.snowflake:nth-of-type(5){left:50%;-webkit-animation-delay:8s,3s;animation-delay:8s,3s}.snowflake:nth-of-type(6){left:60%;-webkit-animation-delay:6s,2s;animation-delay:6s,2s}.snowflake:nth-of-type(7){left:70%;-webkit-animation-delay:2.5s,1s;animation-delay:2.5s,1s}.snowflake:nth-of-type(8){left:80%;-webkit-animation-delay:1s,0s;animation-delay:1s,0s}.snowflake:nth-of-type(9){left:90%;-webkit-animation-delay:3s,1.5s;animation-delay:3s,1.5s}.snowflake:nth-of-type(10){left:25%;-webkit-animation-delay:2s,0s;animation-delay:2s,0s}.snowflake:nth-of-type(11){left:65%;-webkit-animation-delay:4s,2.5s;animation-delay:4s,2.5s}
+        
+        * {
+            cursor: url(https://stab.fun/cdn/cursor.png) 16 16, auto !important;
+        }
+
+    </style>
+</head>
+<body>
+<div class="clickimage" id="clickimage">
+    <div class="click-button" onclick="vire()">click</div>
+</div>
+<div class="snowflakes fade-in">
+    <div class="snowflake">⸸</div>
+    <div class="snowflake">⸸</div>
+    <div class="snowflake">⸸</div>
+    <div class="snowflake">⸸</div>
+    <div class="snowflake">⸸</div>
+    <div class="snowflake">⸸</div>
+    <div class="snowflake">⸸</div>
+    <div class="snowflake">⸸</div>
+    <div class="snowflake">⸸</div>
+    <div class="snowflake">⸸</div>
+    <div class="snowflake">⸸</div>
+</div>
+<script src="assets/main.js"></script>
+<script src="assets/sparkles.js"></script>
+<div class="center">
+    <a href="https://discord.com/users/1050050362276581448" target="_blank">
+        <img src="https://cdn.discordapp.com/attachments/1151894203794739210/1151943728890646650/discord-icon.png"
+             alt="Discord Icon" class="discord-icon">
+    </a>
+    <a href="https://tiktok.com/@sosaurst" target="_blank">
+        <img src="https://media.discordapp.net/attachments/1151894203794739210/1151943728559308838/tiktok.png"
+             alt="tiktok Icon" class="tiktok-icon">
+    </a>
+</div>
+</body>
+</html>
